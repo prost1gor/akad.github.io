@@ -1,0 +1,381 @@
+@import url("repeat.css");
+.contact {
+  margin-top: 150px;
+}
+
+.contact .container > div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+.contact .container > div > div:first-of-type {
+  width: 555px;
+}
+
+.contact .container > div > div:first-of-type .contact_form > form input:first-of-type {
+  height: 49px;
+  width: 263px;
+  padding-left: 20px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  background-color: #ffffff;
+  font-family: Montserrat, sans-serif;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 48px;
+  text-transform: uppercase;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  float: left;
+}
+
+.contact .container > div > div:first-of-type .contact_form > form input:first-of-type::-webkit-input-placeholder {
+  color: #e3e3e3;
+}
+
+.contact .container > div > div:first-of-type .contact_form > form input:first-of-type:-ms-input-placeholder {
+  color: #e3e3e3;
+}
+
+.contact .container > div > div:first-of-type .contact_form > form input:first-of-type::-ms-input-placeholder {
+  color: #e3e3e3;
+}
+
+.contact .container > div > div:first-of-type .contact_form > form input:first-of-type::placeholder {
+  color: #e3e3e3;
+}
+
+.contact .container > div > div:first-of-type .contact_form > form input:nth-of-type(2) {
+  height: 49px;
+  width: 263px;
+  padding-left: 20px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  background-color: #ffffff;
+  font-family: Montserrat, sans-serif;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 48px;
+  text-transform: uppercase;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  float: right;
+}
+
+.contact .container > div > div:first-of-type .contact_form > form input:nth-of-type(2)::-webkit-input-placeholder {
+  color: #e3e3e3;
+}
+
+.contact .container > div > div:first-of-type .contact_form > form input:nth-of-type(2):-ms-input-placeholder {
+  color: #e3e3e3;
+}
+
+.contact .container > div > div:first-of-type .contact_form > form input:nth-of-type(2)::-ms-input-placeholder {
+  color: #e3e3e3;
+}
+
+.contact .container > div > div:first-of-type .contact_form > form input:nth-of-type(2)::placeholder {
+  color: #e3e3e3;
+}
+
+.contact .container > div > div:first-of-type .contact_form > form input:nth-of-type(3) {
+  height: 49px;
+  width: 555px;
+  padding-left: 20px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  background-color: #ffffff;
+  font-family: Montserrat, sans-serif;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 48px;
+  text-transform: uppercase;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  margin-top: 31px;
+}
+
+.contact .container > div > div:first-of-type .contact_form > form input:nth-of-type(3)::-webkit-input-placeholder {
+  color: #e3e3e3;
+}
+
+.contact .container > div > div:first-of-type .contact_form > form input:nth-of-type(3):-ms-input-placeholder {
+  color: #e3e3e3;
+}
+
+.contact .container > div > div:first-of-type .contact_form > form input:nth-of-type(3)::-ms-input-placeholder {
+  color: #e3e3e3;
+}
+
+.contact .container > div > div:first-of-type .contact_form > form input:nth-of-type(3)::placeholder {
+  color: #e3e3e3;
+}
+
+.contact .container > div > div:first-of-type .contact_form > form textarea {
+  height: 200px;
+  width: 555px;
+  padding-left: 20px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  background-color: #ffffff;
+  font-family: Montserrat, sans-serif;
+  font-size: 12px;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-top: 31px;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  padding-top: 21px;
+  resize: none;
+}
+
+.contact .container > div > div:first-of-type .contact_form > form textarea::-webkit-input-placeholder {
+  color: #e3e3e3;
+}
+
+.contact .container > div > div:first-of-type .contact_form > form textarea:-ms-input-placeholder {
+  color: #e3e3e3;
+}
+
+.contact .container > div > div:first-of-type .contact_form > form textarea::-ms-input-placeholder {
+  color: #e3e3e3;
+}
+
+.contact .container > div > div:first-of-type .contact_form > form textarea::placeholder {
+  color: #e3e3e3;
+}
+
+.contact .container > div > div:first-of-type .contact_form > form input:last-of-type {
+  display: none;
+}
+
+.contact .container > div > div:first-of-type .contact_form > form textarea:hover {
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-color: #7beec7;
+}
+
+.contact .container > div > div:first-of-type .contact_form > form input:hover {
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-color: #7beec7;
+}
+
+.contact .container > div > div:first-of-type .contact_form > div {
+  width: 135px;
+  height: 50px;
+  background-color: #7beec7;
+  display: inline-block;
+  margin-top: 30px;
+}
+
+.contact .container > div > div:first-of-type .contact_form > div p {
+  text-align: center;
+  color: #ffffff;
+  font-family: Montserrat, sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 50px;
+  text-transform: uppercase;
+}
+
+.contact .container > div > div:first-of-type .contact_form > div p label {
+  padding: 15px 47px 15px 47px;
+  cursor: pointer;
+}
+
+.contact .container > div > div:first-of-type .contact_form > div p label:hover {
+  color: #60606d;
+}
+
+.contact .container > div > div:first-of-type .contact_info {
+  width: 540px;
+  margin-top: 100px;
+}
+
+.contact .container > div > div:first-of-type .contact_info > h2 {
+  color: #60606e;
+  font-family: Montserrat;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 48px;
+  text-transform: uppercase;
+}
+
+.contact .container > div > div:first-of-type .contact_info > p:first-of-type {
+  color: #999999;
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 30px;
+}
+
+.contact .container > div > div:first-of-type .contact_info > address {
+  color: #999999;
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 30px;
+}
+
+.contact .container > div > div:first-of-type .contact_info > address > a {
+  font-weight: 700;
+  text-decoration: none;
+  font-style: normal;
+  color: #999999;
+}
+
+.contact .container > div > div:first-of-type .contact_info > .social {
+  margin-top: 30px;
+  float: left;
+}
+
+.contact .container > div > div:first-of-type .contact_info > .social > ul {
+  list-style-type: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+}
+
+.contact .container > div > div:first-of-type .contact_info > .social > ul > li {
+  margin-right: 15px;
+  opacity: 0.3;
+}
+
+.contact .container > div > div:first-of-type .contact_info > .social > ul > li:hover {
+  opacity: 0.7;
+}
+
+.contact .container > div > div:first-of-type .contact_info > .social > ul > li img {
+  height: 18px;
+  width: 18px;
+}
+
+.contact .container > div > .contact_map {
+  width: 555px;
+  height: 841px;
+}
+
+@media (max-width: 1200px) {
+  .container {
+    width: 993px;
+  }
+  .header .container > .menu {
+    margin: 0 30px;
+  }
+  .contact .container > div {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .contact .container > div > div:first-of-type {
+    margin-top: 100px;
+  }
+}
+
+@media (max-width: 992px) {
+  .container {
+    width: 757px;
+  }
+  .header .container > .menu {
+    margin: 0 30px;
+  }
+}
+
+@media (max-width: 756px) {
+  .container {
+    width: 577px;
+  }
+  .header .container > .menu {
+    margin: 0 30px;
+  }
+  .contact .container > div > div:first-of-type {
+    width: 517px;
+  }
+  .contact .container > div > .contact_map {
+    width: 517px;
+  }
+  .contact .container > div .contact_form {
+    width: 517px;
+    margin: 0 auto;
+  }
+  .contact .container > div > .contact_map iframe {
+    width: 517px;
+  }
+  .contact .container > div > div:first-of-type .contact_form > form input:first-of-type {
+    width: 250px;
+  }
+  .contact .container > div > div:first-of-type .contact_form > form input:nth-of-type(2) {
+    width: 250px;
+    float: none;
+    margin-left: 17px;
+  }
+  .contact .container > div > div:first-of-type .contact_form > form input:nth-of-type(3) {
+    width: 517px;
+  }
+  .contact .container > div > div:first-of-type .contact_form > form textarea {
+    width: 517px;
+  }
+  .contact .container > div > div:first-of-type .contact_info {
+    width: 517px;
+  }
+}
+
+@media (max-width: 576px) {
+  .container {
+    width: 481px;
+  }
+  .header .container > .menu {
+    margin: 0 30px;
+  }
+  .contact {
+    margin-top: 100px;
+  }
+  .contact .container > div > .contact_map {
+    width: 421px;
+    height: 641px;
+  }
+  .contact .container > div > .contact_map iframe {
+    width: 420px;
+    height: 640px;
+  }
+  .contact .container > div .contact_form {
+    width: 421px;
+    margin: 0 auto;
+  }
+  .contact .container > div > div:first-of-type {
+    width: 421px;
+  }
+  .contact .container > div > div:first-of-type .contact_form > form input:first-of-type {
+    float: none;
+    width: 420px;
+  }
+  .contact .container > div > div:first-of-type .contact_form > form input:nth-of-type(2) {
+    width: 420px;
+    margin-left: 0;
+    margin-top: 31px;
+  }
+  .contact .container > div > div:first-of-type .contact_form > form input:nth-of-type(3) {
+    width: 420px;
+  }
+  .contact .container > div > div:first-of-type .contact_form > form textarea {
+    width: 420px;
+  }
+  .contact .container > div > div:first-of-type .contact_info {
+    width: 421px;
+    margin: 0 auto;
+  }
+}
+/*# sourceMappingURL=contact.css.map */
